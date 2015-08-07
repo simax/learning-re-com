@@ -23,8 +23,6 @@
     :builds [{:id "dev"
               :source-paths ["src"]
 
-              :figwheel { :on-jsload "fig.core/on-js-reload" }
-
               :compiler {:main fig.core
                          :asset-path "js/compiled/out"
                          :output-to "resources/public/js/compiled/fig.js"
